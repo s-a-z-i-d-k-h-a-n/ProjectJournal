@@ -1,16 +1,38 @@
-# React + Vite
+# ProjectJournal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio built with React and Vite. It introduces a CSE student, highlights current skills and a featured Library Management System project, and includes a small interactive counter.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- About, skills, projects, and contact sections with in-page navigation
+- Interactive counter with increment and reset buttons
+- Responsive layout with a dark gradient design
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install the dependencies:
 
-## Expanding the ESLint configuration
+```sh
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the development server:
+
+```sh
+npm run dev
+```
+
+Open the local URL printed in the terminal to view the site.
+
+## Available Scripts
+
+- `npm run dev` — start the Vite development server
+- `npm run build` — create a production build in `dist`
+- `npm run preview` — preview the production build locally
+- `npm run lint` — run ESLint
+
+## Built With
+
+- React
+- Vite
+- CSS
